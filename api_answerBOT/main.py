@@ -1,13 +1,13 @@
-from keywords import Keywords
-from info_retriever import Info_Retriever
-from info_ranker import Info_Ranker
-from answr_DistilBert import DistilBertAnswerGenerator
-from answr_RoBERTa import RoBERTaAnswerGenerator
+from classes.keywords import Keywords
+from classes.info_retriever import Info_Retriever
+from classes.info_ranker import Info_Ranker
+from classes.answr_DistilBert import DistilBertAnswerGenerator
+from classes.answr_RoBERTa import RoBERTaAnswerGenerator
 from fastapi import FastAPI
 
 import logging
 logging.basicConfig(level=logging.INFO, 
-                    filename="log.log", 
+                    filename="log/log.log", 
                     filemode="w",
                     format="%(asctime)s - %(levelname)s -%(message)s")
 
@@ -15,7 +15,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the Q&A API!"}
+    return {"message": "Welcome to the AnswerBOT API!"}
 
 @app.get("/answers")
 def Question_Answer(query: str):

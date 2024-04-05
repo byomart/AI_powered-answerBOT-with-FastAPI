@@ -28,11 +28,12 @@ def Question_Answer(query: str):
 
         ranker = Info_Ranker(document_list)
         top_documents = ranker.rank_documents(document_list, query, 10)
-        
-        DistilBert_answer_generator = DistilBertAnswerGenerator(top_documents,query)
+
+        RoBERTa_answer_generator = RoBERTaAnswerGenerator()
+        # DistilBert_answer_generator = DistilBertAnswerGenerator(top_documents,query)
         answers_list = []
         for i in range(len(top_documents)):
-            answer = DistilBert_answer_generator.generate_answer(top_documents[i],query)
+            answer = RoBERTa_answer_generator.generate_answer(top_documents[i],query)
             
             # non_empty_positions:
             if answer.strip():

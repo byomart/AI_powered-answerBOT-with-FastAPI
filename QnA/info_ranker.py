@@ -15,7 +15,7 @@ class Info_Ranker():
             
             logging.info(f' Most Relevant Documents: ')
             for doc in top_documents:
-                logging.info(f' - {doc} ...')
+                logging.info(f' *{doc} ...')
 
             return top_documents
         

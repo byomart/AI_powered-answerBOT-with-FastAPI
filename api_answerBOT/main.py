@@ -5,11 +5,13 @@ from classes.answr_DistilBert import DistilBertAnswerGenerator
 from classes.answr_RoBERTa import RoBERTaAnswerGenerator
 from fastapi import FastAPI
 
+
 import logging
 logging.basicConfig(level=logging.INFO, 
                     filename="log/log.log", 
                     filemode="w",
                     format="%(asctime)s - %(levelname)s -%(message)s")
+
 
 app = FastAPI()
 

@@ -11,19 +11,19 @@ A user query is taken and responded to based on information taken from Wikipedia
 - **RoBERTaAnswerGenerator()**: Uses the RoBERTa model to generate responses from the classified documents.
 
 
-## Usage of the Project
+## How to use
 This project provides an API for answering questions based on information obtained from Wikipedia. To use the API, follow these steps:
 
 1. **Clone the Repository:**
    Clone this repository to your local machine using the following command:
-- *git clone https://github.com/fbayomartinez/fastapi.git*
+    - *git clone https://github.com/fbayomartinez/fastapi.git*
 
 2. **Install Dependencies:**
-Make sure you have all the necessary dependencies installed. You can install them by menas of *pip install* command in the project's root director.
+Make sure you have all the necessary dependencies installed. You can install them by means of *pip install* command in the project's root director.
 
 3. **Run the API:**
 Once all dependencies are installed, you can run the API by executing the following command in the terminal:
-- *uvicorn main:app --reload*
+    - *uvicorn main:app --reload*
 
 This will start the FastAPI development server, and you can access the API from your browser or through tools like cURL or Postman.
 
@@ -31,22 +31,7 @@ This will start the FastAPI development server, and you can access the API from 
 You can make queries to the API by accessing the following URL in your browser:
 - *http://localhost:8000*
 
-## FastAPI Interface
 Additionally, FastAPI provides us with an interface where we can find the endpoints we have created, allowing us to test the correct functionality of the application. To do this, we use the following URL:
 - *http://localhost:8000/docs*
 
-
-
-
-
-
-
-<!-- ## Instalación
-
-Proporciona instrucciones sobre cómo instalar o configurar tu proyecto. Incluye requisitos previos si es necesario.
-
-## Uso
-
-Explica cómo utilizar tu proyecto. Proporciona ejemplos de código o capturas de pantalla si es necesario.
- -->
 

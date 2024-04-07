@@ -5,10 +5,10 @@ The aim of this project is to create a Python API using the well-known FastAPI f
 ## Index
 A user query is taken and responded to based on information taken from Wikipedia. For this purpose, the code is structured into the following classes:
 
-- [Keywords()]: Extracts keywords from the user's query.
-- [Info_Retriever()]: Retrieves relevant information based on the keywords extracted in the previous step by searching Wikipedia entries containing the keywords.
-- [Info_Ranker()]: Classifies the retrieved documents based on their relevance to the query. In this case, the top 10 classified documents are selected.
-- [RoBERTaAnswerGenerator()]: Uses the RoBERTa model to generate responses from the classified documents.
+- **Keywords()**: Extracts keywords from the user's query.
+- **Info_Retriever()**: Retrieves relevant information based on the keywords extracted in the previous step by searching Wikipedia entries containing the keywords.
+- **Info_Ranker()**: Classifies the retrieved documents based on their relevance to the query. In this case, the top 10 classified documents are selected.
+- **RoBERTaAnswerGenerator()**: Uses the RoBERTa model to generate responses from the classified documents.
 
 
 <!-- ## Instalación

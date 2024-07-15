@@ -41,7 +41,7 @@ Additionally, FastAPI provides us with an interface where we can find the endpoi
 The following are some examples of use:
 
 
-![Uploading Captura de pantalla 2024-07-15 140455.png…]()
+![Captura de pantalla 2024-07-15 140455](https://github.com/user-attachments/assets/3a24a43f-979f-437f-b778-6cb48f38e0a1)
 
 
 ![Captura de pantalla 2024-07-15 141458](https://github.com/user-attachments/assets/628bdc52-6b19-4408-b654-18937e944a4f)

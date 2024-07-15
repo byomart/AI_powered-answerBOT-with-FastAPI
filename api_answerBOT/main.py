@@ -4,11 +4,11 @@ from classes.info_ranker import Info_Ranker
 from classes.answr_DistilBert import DistilBertAnswerGenerator
 from classes.answr_RoBERTa import RoBERTaAnswerGenerator
 from fastapi import FastAPI
-
+import uvicorn
 
 import logging
 logging.basicConfig(level=logging.INFO, 
-                    filename="log/log.log", 
+                    filename="logs/log.log", 
                     filemode="w",
                     format="%(asctime)s - %(levelname)s -%(message)s")
 
@@ -47,6 +47,13 @@ def Question_Answer(query: str):
     except Exception as e:
         logging.error(e)
         return {"error": str(e)}
+
+if __name__ == "__main__":
+   uvicorn.run("main:app", host="0.0.0.0", port=8010, log_level="debug", reload=True)
+
+
+
+
 
 
 #############################################

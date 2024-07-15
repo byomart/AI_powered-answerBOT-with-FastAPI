@@ -34,11 +34,11 @@ Once all dependencies are installed, you can run the API by executing the follow
    This will start the FastAPI development server, and you can access the API from your browser or through tools like cURL or Postman.
 
 4. **Make Queries:**
-You can make queries to the API by accessing the following URL in your browser:
-- *http://localhost:8010*
-
-Additionally, FastAPI provides us with an interface where we can find the endpoints we have created, allowing us to test the correct functionality of the application. To do this, we use the following URL:
-- *http://localhost:8000/docs*
+   You can make queries to the API by accessing the following URL in your browser:
+   - *http://localhost:8010*
+   
+   Additionally, FastAPI provides us with an interface where we can find the endpoints we have created, allowing us to test the correct functionality of the application. To do this, we use the following URL:
+   - *http://localhost:8000/docs*
 
 The following are some examples of use:
 

@@ -26,6 +26,7 @@ Once all dependencies are installed, you can run the API by executing the follow
     - *uvicorn main:app --reload*
 In this case, we have introduced this lines to automate the process:
     - *if __name__ == "__main__":
+
          uvicorn.run("main:app", host="0.0.0.0", port=8010, log_level="debug", reload=True)*
 
 This will start the FastAPI development server, and you can access the API from your browser or through tools like cURL or Postman.

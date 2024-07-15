@@ -38,14 +38,11 @@ You can make queries to the API by accessing the following URL in your browser:
 - *http://localhost:8010*
 
 Additionally, FastAPI provides us with an interface where we can find the endpoints we have created, allowing us to test the correct functionality of the application. To do this, we use the following URL:
-- *http://localhost:8000/docs*![Captura de pantalla 2024-07-15 140455](https://github.com/user-attachments/assets/4407085e-cacf-4fdf-980e-330514d8c689)
-
+- *http://localhost:8000/docs*
 
 The following are some examples of use:
 
-
 ![Captura de pantalla 2024-07-15 140455](https://github.com/user-attachments/assets/3a24a43f-979f-437f-b778-6cb48f38e0a1)
-
 
 ![Captura de pantalla 2024-07-15 141458](https://github.com/user-attachments/assets/628bdc52-6b19-4408-b654-18937e944a4f)
 

@@ -1,4 +1,4 @@
-# AI answerBOT API based on LLMs (BERT)
+# AI answerBOT API based on LLMs
 The aim of this project is to create a Python API using the well-known FastAPI framework, primarily based on Pydantic. The API will be designed to allow users to make queries through an AI-based bot, which will respond to the questions entered via a user interface.
 
 
